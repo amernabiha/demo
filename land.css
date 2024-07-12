@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color:whitesmoke;
+    clear: both;
+    display: table;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    border: 2px solid gray;
+}
+.bakerimg{
+    width: 30%;
+    height: auto;
+    text-align: center;
+    float: left;
+
+}
+nav{
+    width: 70%;
+    height: auto;
+  float: left;
+  padding: 20px ;
+  margin:0px;
+  display: none;
+
+}
+nav ul li{
+    display: inline-block;
+    padding: 5px 35px;
+    border: 2px solid green;
+    border-radius: 25px;
+     margin: 5px;
+    
+}
+li:hover{
+    background-color:burlywood;
+    color: rgb(14, 15, 15);
+    cursor: pointer;
+}
+.bg{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(141, 204, 215);
+    clear: both;
+    display: table;
+}
+.bg img{
+    width: 50%;
+    height: 500px;
+    float: left;
+}
+.bgtext{
+    width: 50%;
+    height: 500px;
+    float: right;
+}
+.bgtext h3{
+    text-align: center;
+    font-size: 30px;
+}
+.bgtext p{
+    font-size: 15px;
+    text-align: center;
+}
+.message{
+    width: 100%;
+    height: auto;
+    text-align: right;
+    position: fixed;
+    bottom: 70px;
+    right: 20px;
+    z-index: 1;
+}
+.message button{
+    background-color: green;
+    padding: 10px 70px;
+    border-radius: 50px;
+}
+.message button:hover{
+    background-color:burlywood;
+    cursor: pointer
+}
+.main{
+    width: 100%;
+    height: 200px;
+    background-color: transparent;
+   text-align: center;
+   margin: 20px;
+
+}
+.main button{
+    margin: 20px;
+    padding: 10px 50px;
+    color: black;
+    border-radius: 50px;
+    
+}
+.main button:hover{
+        background-color:burlywood;
+        cursor: pointer;
+}
+.mainf{
+    width: 80%;
+    height: auto;
+    background-color:transparent;   
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    clear: both;
+    display: table;
+}
+
+.products{
+    width: 25%;
+    float: left;
+}
+figure img{
+    width: 100%;
+    border: 1px solid black;
+}
+figure{
+    margin: 20px;
+    box-shadow: 2px 2px 5px 5px;
+   
+}
+figcaption{
+    padding: 10px;
+    font-style: italic;
+   
+}
+figcaption button{
+    background-color: rgb(112, 112, 223);
+}
+figcaption button:hover{
+    background-color:burlywood;
+    cursor: pointer
+}
+footer{
+    width: 100%;
+    height: 30px;
+   font-style: italic;
+    text-align: center;
+    background-color: rgb(145, 124, 124);
+}
+footer h3{
+    font-size: 20px;
+}
+   
+

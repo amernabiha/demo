@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing web</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="land.css">
+    <script src="js/bootstrap.min.js"></script> 
+</head>
+<body>
+    <script src="jquery-3.7.1.min"></script> 
+    <script>$(document).ready(() => {
+        $("#menu").click(() => {
+         $("nav").slideToggle()
+        })
+    })
+    </script>
+    <header>
+        <div class="bakerimg">
+            <img src="bakers.jpeg" alt="">
+        </div>
+        <button id="menu">Menu</button>
+      <nav>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Products</li>
+            <li>Services</li>
+            <li>Contact us</li> 
+        </ul>
+    </nav>
+    </header>
+    <section class="message">
+        <button>Message Us</button>
+        </section>
+    <section class="bg">
+           <img src="image1.jpeg" alt="">
+           <div class="bgtext">
+            <br><br>
+            <h3> Baker's Club: A Haven of Homely Delights</h3>    
+            <p>Nestled in the heart of Hyderabad,Baker's Club offers a charming retreat for pastry lovers. With its vintage decor and the aroma of freshly baked bread, it invites passersby into a world of rustic charm. Our bakery prides itself on handcrafted pastries and artisanal bread, made using locally sourced, organic ingredients. From our famous creams to our hearty sourdough flour, each item tells a story of tradition and passion.
+               <br><br> At Baker's Club, we believe in more than just baking and delivering happiness. We believe in creating memories. Our cozy Store, with its mismatched chairs and warm, inviting atmosphere, is the perfect spot for buying any bakery product with lots of varieties. Whether you’re meeting friends over store or enjoying a quiet moment with a choosing products, our store provides a comforting escape from the hustle and bustle.                
+                Our commitment extends beyond delicious goods. We are a hub for the community, hosting weekly baking workshops and supporting local events. Our aim is not just to be a bakery, but a gathering place that nurtures warmth and togetherness.</p>
+        </div>
+    </section>  
+
+        <section class="main">
+            <h1>Get started any way you want</h1>
+            <div class="container text-center">
+                <div class="row">
+                  <div class="col">
+                    <button class="btn btn-success"data-bs-toggle="modal" data-bs-target="#myModal">Sign Up</button>
+                  </div>
+                  <div class="col-6">
+                    <button class="btn btn-danger">Download the APP</button>
+                  </div>
+                  <div class="col">
+                    <button class="btn btn-primary"data-bs-toggle="modal" data-bs-target="#SignIn">Sign In</button>
+                  </div>
+                </div>
+                <h2>It's Easy and Smooth</h2>
+        </section>
+        <section>
+            <div class="modal" id="myModal">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h4 class="modal-title">Be Our Team Member</h4>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                    <p> Name : <input type="text" placeholder="Enter Name"></p> 
+                    <p> Email: <input type="email" placeholder="Enter Email"></p> 
+                    <p> Date of Birth: <input type="date"></p>
+                    <p> Choose Password: <input type="password" placeholder="Choose Password"></p>
+                    <p> Retype Password: <input type="password" placeholder="Retype Password"></p>
+                    </div>
+                    <div class="modal-footer d-grid gap-2 d-md-flex justify-content-md-center">
+                      <button type="button" class="btn btn-primary btn-lg" data-bs-dismiss="modal">Submit</button>
+                      <button type="button" class="btn btn-danger btn-lg" data-bs-dismiss="modal">Close</button>
+                    </div>
+        </section>
+        <section>
+            <div class="modal" id="SignIn">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h4 class="modal-title">Welcome Member</h4>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                    <p> Name : <input type="text" placeholder="Enter Name"></p> 
+                    <p> Email: <input type="email" placeholder="Enter Email"></p> 
+                    <p> Password: <input type="password" placeholder="Type Password"></p>
+                    
+                    </div>
+                    <div class="modal-footer d-grid gap-2 d-md-flex justify-content-md-center">
+                      <button type="button" class="btn btn-primary btn-lg" data-bs-dismiss="modal">Submit</button>
+                      <button type="button" class="btn btn-danger btn-lg" data-bs-dismiss="modal">Close</button>
+                    </div>
+        
+        </section>
+        <section class="container-fluid p-0">
+            <div class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="front.jpeg" width="100%" height="500px" alt="">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="bucket.jpeg" width="100%" height="500px">
+                  </div>
+                  <div class="carousel-item ">
+                    <img src="ice.jpeg" width="100%" height="500px">
+                  </div>
+                </div>
+              </div>
+        </section>
+        <section class="mainf">
+            <h3>Our Products and Prices are Different </h3>
+          <div class="products">
+            <figure>
+                <img src="bucket.jpeg" alt="">
+                <figcaption>
+                    Amul Choco Chips <span>400 rupees</span>
+                      <button>Add to Cart</button>
+                </figcaption>
+            </figure>
+          </div>
+          <div class="products">
+            <figure>
+                <img src="bucket.jpeg" alt="">
+                <figcaption>
+                    Amul Choco Chips <span>400 rupees</span>
+                      <button>Add to Cart</button>
+                </figcaption>
+            </figure>
+          </div>
+          <div class="products">
+            <figure>
+                <img src="bucket.jpeg" alt="">
+                <figcaption>
+                   Amul Choco Chips <span>400 rupees</span>
+                      <button>Add to Cart</button>
+                </figcaption>
+            </figure>
+          </div>
+          <div class="products">
+            <figure>
+                <img src="bucket.jpeg" alt="">
+                <figcaption>
+                    Amul Choco Chips <span>400 rupees</span>
+                      <button>Add to Cart</button>
+                </figcaption>
+            </figure>
+          </div>
+          <div class="products">
+            <figure>
+                <img src="jam.jpeg" alt="">
+                <figcaption>
+                      Kissan Mixed fruit Jam <span>100 rupees</span>
+                    <button>Add to Cart</button>
+                </figcaption>
+            </figure>
+          </div>
+          <div class="products">
+            <figure>
+                <img src="badshah.jpeg" alt="">
+                <figcaption>
+                    Kissan Mixed fruit Jam <span>500 rupees</span>
+                    <button>Add to Cart</button>
+                </figcaption>
+            </figure>
+          </div>
+          <div class="products">
+            <figure>
+                <img src="caps.jpeg" alt="">
+                <figcaption>
+                    Kissan Mixed fruit Jam <span>100 rupees</span>
+                    <button>Add to Cart</button>
+                </figcaption>
+            </figure>
+          </div>
+          <div class="products">
+            <figure>
+                <img src="jam.jpeg" alt="">
+                <figcaption>
+                    Kissan Mixed fruit Jam <span>100 rupees</span>
+                    <button>Add to Cart</button>
+                </figcaption>
+            </figure>
+          </div>
+        </section>
+   <footer>
+    <h3>Rights Belong to @ Baker's Club</h3>
+   </footer>
+</body>
+</html>
